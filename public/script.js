@@ -40,3 +40,8 @@ async function sendMessage() {
         console.error('Error:', error);
     }
 }
+
+
+function openGitHub() {
+    window.open('https://github.com/bittu1040/AI-chatbot', '_blank');
+}
